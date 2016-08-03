@@ -1,0 +1,58 @@
+{
+   "name": "Ovlu",
+   "indexHtmlPath": "index.html",
+   "url": null,
+   "js": [
+      {
+         "path": "touch/sencha-touch.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "bootstrap.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "app.js",
+         "bundle": true,
+         "update": "delta"
+      }
+   ],
+   "css": [
+      {
+        "path": "touch/resources/css/cupertino.css",
+        "platform": ["phone","tablet","desktop", "chrome", "safari", "ios", "ios-classic", "firefox"],
+        "theme": "Cupertino",
+        "update": "delta"
+      },
+      {
+         "path": "TouchCalendarView.css"
+      },
+      {
+          "path": "SimpleEvents.css"
+      },
+      {
+          "path": "resources/css/custom.css"
+      }
+   ],
+   "appCache": {
+      "cache": [
+         "index.html"
+      ],
+      "network": [
+         "*"
+      ],
+      "fallback": []
+   },
+   "resources": [
+      "config.xml",
+      "resources/images",
+      "resources/icons",
+      "resources/startup"
+   ],
+   "ignore": [
+      ".svn$"
+   ],
+   "archivePath": "archive",
+   "requires": [],
+   "id": "8994bca3-e347-417f-aa24-a55ea805a1eb"
+}

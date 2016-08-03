@@ -1,0 +1,37 @@
+[
+    {
+        "courtname": "The Cage",
+        "openhours": "9 a.m. - 10 p.m.",
+        "description": "The Cage is one of New York City’s most popular spots for street basketball.It is widely known for generating NBA stars and hosting celebrity pick-up games. ",
+        "coordN": 40.731182,
+        "coordW": -74.001092
+    },
+    {
+        "courtname": "NYU Coles Gym",
+        "openhours": "9 a.m. - 9 p.m.",
+        "description": "The Jerome S. Coles Sports Center, which opened in September 1981, is the hub of recreational and athletic needs for the University’s students, faculty, staff, and alumni. ",
+        "coordN": 40.726647,
+        "coordW": -73.997543
+    },
+    {
+        "courtname": "Poly Gym",
+        "openhours": "9 a.m. - 6 p.m.",
+        "description": "Poly Gym is the hub of recreational and athletic need for Poly's students.",
+        "coordN": 40.6009229,
+        "coordW": -73.9771259
+    },
+    {
+        "courtname": "Harmony Playground",
+        "openhours": "9 a.m. - 10 p.m.",
+        "description": "Harmony Playground is part of Prospect Park,a really great place in Brooklyn.",
+        "coordN": 40.663409,
+        "coordW": -73.976781
+    },
+    {
+        "courtname": "Red Hook Recreation",
+        "openhours": "9 a.m. - 10 p.m.",
+        "description": "Where Carmelo Athony started his basketball dream.",
+        "coordN": 40.672277,
+        "coordW": -74.004022
+    }
+]

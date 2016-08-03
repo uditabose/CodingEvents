@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6750" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6735"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="imageCell" rowHeight="255" id="KGk-i7-Jjw" customClass="PercolateCoffeeImageCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="255"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oeo-aN-QbL">
+                        <rect key="frame" x="18" y="9" width="285" height="37"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="285" id="hT2-B9-vnd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" bouncesZoom="NO" editable="NO" text="Some stuff" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I4M-5U-a5S">
+                        <rect key="frame" x="18" y="54" width="285" height="44"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="285" id="TDE-z9-b5M"/>
+                        </constraints>
+                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                    </textView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="unf-L5-AVJ">
+                        <rect key="frame" x="18" y="115" width="193" height="130"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="193" id="P82-ma-x7E"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="I4M-5U-a5S" firstAttribute="top" secondItem="oeo-aN-QbL" secondAttribute="bottom" constant="8" id="6wE-D9-Qoa"/>
+                    <constraint firstItem="oeo-aN-QbL" firstAttribute="leading" secondItem="I4M-5U-a5S" secondAttribute="leading" id="E9d-Fk-Bjl"/>
+                    <constraint firstAttribute="centerX" secondItem="oeo-aN-QbL" secondAttribute="centerX" constant="-0.5" id="ECq-Op-s7w"/>
+                    <constraint firstItem="unf-L5-AVJ" firstAttribute="leading" secondItem="I4M-5U-a5S" secondAttribute="leading" id="e35-fz-yAR"/>
+                    <constraint firstItem="unf-L5-AVJ" firstAttribute="top" secondItem="I4M-5U-a5S" secondAttribute="bottom" constant="17" id="fvK-wL-Nqk"/>
+                    <constraint firstAttribute="centerY" secondItem="oeo-aN-QbL" secondAttribute="centerY" constant="100" id="uTi-kU-StL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="coffeNameLabel" destination="oeo-aN-QbL" id="tuS-vz-GxN"/>
+                <outlet property="coffeeDetailText" destination="I4M-5U-a5S" id="vrd-ng-vOw"/>
+                <outlet property="coffeeImageView" destination="unf-L5-AVJ" id="ewA-9q-1ej"/>
+            </connections>
+            <point key="canvasLocation" x="241" y="308.5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,64 @@
+Q: Feature Question 
+1. Show how to include a variable in a page using PHP
+
+Answer : $_SESSION is a superglobal variable through which we can include a variable 
+         in a PHP page.
+
+2. Show three ways to include content from another file in PHP
+
+Answer : 3 ways are -
+        a) include "<file_path>" or include_once "<file_path>"
+        b) require "<file_path>" or require_once "<file_path>"
+        c) use <canonical_namespace_to_target_file>
+
+Q. Adventure Question  
+Describe the MVC design pattern as it applies to web servers - start from initial HTTP request and end with writing the response.
+
+Answer : MVC or Model-View-Controller is a design pattern adopted in many web application for it's clear separation
+         among data, business and representation layer. A short introduction of terms - 
+         M => Model - The data layer, responsible for accessing, persisting and manipulating the backend data layer, where data
+         layer can be anything from a traditional Relational Database, NoSQL Database, XML datastore, flat files or any other.
+         V => View - The representation layer, responsible to display the data in a manner useful for understanding for the user 
+         and also to enable user to act on the data.
+         C => Controller - The business layer, this layer is responsible to bridge between the data and representation layer.
+         Also, this layer implements all the crucial business logic, which operates on data.
+         
+         From a server point of view - 
+         a) User initiates a request using an URL, most probably using a browser
+         b) DNS resolves the URL to point to the server IP
+         c) The target server, that listens to the specified port (usually 80, for HTTP connection) receives the request
+         d) The server then resolves the context path, and routes the request to the initial controller - this 
+            is the starting point for the MVC (and the application). The controller can be literally anything from a 
+            servlet, PHP file to controllers provided by web application frameworks, like Zend for PHP, or Struts, JSF
+            in Java.
+         e) Controllers intercept the request, reads the data sent by user in form of query (GET) or request body data (POST),
+            deduce what action it needs to take, instantiates the data objects - here Model starts to work.
+         f) The Model then does perform on the data as requested, example of such operation can be create, update, delete and 
+            access of data.
+         g) On successfully operation on the data, Controllers then decide which View to redirect and performs the redirection.
+         h) View understands how the data to be displayed by and how to enable user to interact with the data.
+
+Q: Feature Question 
+Describe the pros and cons of version control.
+
+Answer : Pros :
+         a) Reduces, and eliminates the chance of accidental deletion of any code or data
+         b) Easy to revert back to an earlier version in case current version shows any problem
+         c) Easy to track any bug, it's source, resolution and cause
+         d) Helps many developers, QA personnel to collaborate on the same code without strictly 
+            requiring any manual synchronization.
+         e) Almost all modern day version control system has ability to create branches, tags - thus 
+            helps to work simultaneously on many versions of the same code. This is very useful when
+            there is a working/released version - which goes through minimal change, but another version
+            (nightly/bleeding edge) which may be unstable and not to be released.
+         f) Helps to track  code-coverage and on the trend of code quality.
+         g) Integration with Continuous Build Integration Tools.
+         h) Provides basic security on the codebase.
+         
+         Cons : It is really tough to figure out one, though
+         a) Some version control system requires a little time to learn.
+         b) It may need some patience to integrate existing codebase with a selected version control system
+         
+         
+
+

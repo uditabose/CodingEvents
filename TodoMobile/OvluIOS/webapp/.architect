@@ -1,0 +1,32 @@
+{
+    "expandedState": {
+        "data": true,
+        "model": true,
+        "component": true,
+        "controller": true,
+        "resource": true,
+        "af006418-13f0-4ad1-ad1a-35cb031edecd": {
+            "id": "af006418-13f0-4ad1-ad1a-35cb031edecd"
+        },
+        "7d237c8b-f055-43d1-85f9-f2662ab6c6f8": {
+            "id": "7d237c8b-f055-43d1-85f9-f2662ab6c6f8"
+        }
+    },
+    "tabState": {
+        "openTabs": []
+    },
+    "canvasState": {
+        "topInstance": null
+    },
+    "inspectorState": {
+        "topInstance": null,
+        "selectedInstance": null
+    },
+    "codeState": {
+        "topInstance": null
+    },
+    "editMode": "design",
+    "userSettings": {
+        "no-cmd": false
+    }
+}

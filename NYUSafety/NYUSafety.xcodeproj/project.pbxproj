@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB29F2901AD8C36400852B02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB29F28F1AD8C36400852B02 /* main.m */; };
+		CB29F2931AD8C36400852B02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB29F2921AD8C36400852B02 /* AppDelegate.m */; };
+		CB29F2961AD8C36400852B02 /* SafetyLandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB29F2951AD8C36400852B02 /* SafetyLandingViewController.m */; };
+		CB29F2991AD8C36400852B02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB29F2971AD8C36400852B02 /* Main.storyboard */; };
+		CB29F29B1AD8C36400852B02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB29F29A1AD8C36400852B02 /* Images.xcassets */; };
+		CB29F29E1AD8C36400852B02 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB29F29C1AD8C36400852B02 /* LaunchScreen.xib */; };
+		CB29F2AA1AD8C36500852B02 /* NYUSafetyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB29F2A91AD8C36500852B02 /* NYUSafetyTests.m */; };
+		CB29F2B41AD8F4AC00852B02 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB29F2B31AD8F4AC00852B02 /* MapKit.framework */; };
+		CB9E7F3A1AD8F55C00CB402C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9E7F391AD8F55C00CB402C /* CoreLocation.framework */; };
+		CB9E7F3D1AD907C400CB402C /* SafetySignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9E7F3C1AD907C400CB402C /* SafetySignUpViewController.m */; };
+		CB9E7F401AD907FF00CB402C /* SafetySignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9E7F3F1AD907FF00CB402C /* SafetySignInViewController.m */; };
+		CB9E7F431AD9082700CB402C /* SafetyVerifyCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9E7F421AD9082700CB402C /* SafetyVerifyCodeViewController.m */; };
+		CB9E7F461AD9084300CB402C /* SafetyDashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9E7F451AD9084300CB402C /* SafetyDashViewController.m */; };
+		CB9E7F491AD90F0400CB402C /* SafetyAPIDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9E7F481AD90F0400CB402C /* SafetyAPIDataHandler.m */; };
+		CBB71DD71AD9E52400F44416 /* SafetyBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB71DD61AD9E52400F44416 /* SafetyBaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB29F2A41AD8C36400852B02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB29F2821AD8C36400852B02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB29F2891AD8C36400852B02;
+			remoteInfo = NYUSafety;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB29F28A1AD8C36400852B02 /* NYUSafety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYUSafety.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB29F28E1AD8C36400852B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB29F28F1AD8C36400852B02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB29F2911AD8C36400852B02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB29F2921AD8C36400852B02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB29F2941AD8C36400852B02 /* SafetyLandingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafetyLandingViewController.h; sourceTree = "<group>"; };
+		CB29F2951AD8C36400852B02 /* SafetyLandingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafetyLandingViewController.m; sourceTree = "<group>"; };
+		CB29F2981AD8C36400852B02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB29F29A1AD8C36400852B02 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB29F29D1AD8C36400852B02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB29F2A31AD8C36400852B02 /* NYUSafetyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYUSafetyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB29F2A81AD8C36500852B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB29F2A91AD8C36500852B02 /* NYUSafetyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYUSafetyTests.m; sourceTree = "<group>"; };
+		CB29F2B31AD8F4AC00852B02 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CB9E7F391AD8F55C00CB402C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CB9E7F3B1AD907C400CB402C /* SafetySignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafetySignUpViewController.h; sourceTree = "<group>"; };
+		CB9E7F3C1AD907C400CB402C /* SafetySignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafetySignUpViewController.m; sourceTree = "<group>"; };
+		CB9E7F3E1AD907FF00CB402C /* SafetySignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafetySignInViewController.h; sourceTree = "<group>"; };
+		CB9E7F3F1AD907FF00CB402C /* SafetySignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafetySignInViewController.m; sourceTree = "<group>"; };
+		CB9E7F411AD9082700CB402C /* SafetyVerifyCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafetyVerifyCodeViewController.h; sourceTree = "<group>"; };
+		CB9E7F421AD9082700CB402C /* SafetyVerifyCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafetyVerifyCodeViewController.m; sourceTree = "<group>"; };
+		CB9E7F441AD9084300CB402C /* SafetyDashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafetyDashViewController.h; sourceTree = "<group>"; };
+		CB9E7F451AD9084300CB402C /* SafetyDashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafetyDashViewController.m; sourceTree = "<group>"; };
+		CB9E7F471AD90F0400CB402C /* SafetyAPIDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafetyAPIDataHandler.h; sourceTree = "<group>"; };
+		CB9E7F481AD90F0400CB402C /* SafetyAPIDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafetyAPIDataHandler.m; sourceTree = "<group>"; };
+		CBB71DD51AD9E52400F44416 /* SafetyBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafetyBaseViewController.h; sourceTree = "<group>"; };
+		CBB71DD61AD9E52400F44416 /* SafetyBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafetyBaseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB29F2871AD8C36400852B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9E7F3A1AD8F55C00CB402C /* CoreLocation.framework in Frameworks */,
+				CB29F2B41AD8F4AC00852B02 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB29F2A01AD8C36400852B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB29F2811AD8C36400852B02 = {
+			isa = PBXGroup;
+			children = (
+				CB9E7F391AD8F55C00CB402C /* CoreLocation.framework */,
+				CB29F2B31AD8F4AC00852B02 /* MapKit.framework */,
+				CB29F28C1AD8C36400852B02 /* NYUSafety */,
+				CB29F2A61AD8C36400852B02 /* NYUSafetyTests */,
+				CB29F28B1AD8C36400852B02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB29F28B1AD8C36400852B02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB29F28A1AD8C36400852B02 /* NYUSafety.app */,
+				CB29F2A31AD8C36400852B02 /* NYUSafetyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB29F28C1AD8C36400852B02 /* NYUSafety */ = {
+			isa = PBXGroup;
+			children = (
+				CB29F2911AD8C36400852B02 /* AppDelegate.h */,
+				CB29F2921AD8C36400852B02 /* AppDelegate.m */,
+				CB29F2941AD8C36400852B02 /* SafetyLandingViewController.h */,
+				CB29F2951AD8C36400852B02 /* SafetyLandingViewController.m */,
+				CB29F2971AD8C36400852B02 /* Main.storyboard */,
+				CB29F29A1AD8C36400852B02 /* Images.xcassets */,
+				CB29F29C1AD8C36400852B02 /* LaunchScreen.xib */,
+				CB29F28D1AD8C36400852B02 /* Supporting Files */,
+				CB9E7F3B1AD907C400CB402C /* SafetySignUpViewController.h */,
+				CB9E7F3C1AD907C400CB402C /* SafetySignUpViewController.m */,
+				CB9E7F3E1AD907FF00CB402C /* SafetySignInViewController.h */,
+				CB9E7F3F1AD907FF00CB402C /* SafetySignInViewController.m */,
+				CB9E7F411AD9082700CB402C /* SafetyVerifyCodeViewController.h */,
+				CB9E7F421AD9082700CB402C /* SafetyVerifyCodeViewController.m */,
+				CB9E7F441AD9084300CB402C /* SafetyDashViewController.h */,
+				CB9E7F451AD9084300CB402C /* SafetyDashViewController.m */,
+				CB9E7F471AD90F0400CB402C /* SafetyAPIDataHandler.h */,
+				CB9E7F481AD90F0400CB402C /* SafetyAPIDataHandler.m */,
+				CBB71DD51AD9E52400F44416 /* SafetyBaseViewController.h */,
+				CBB71DD61AD9E52400F44416 /* SafetyBaseViewController.m */,
+			);
+			path = NYUSafety;
+			sourceTree = "<group>";
+		};
+		CB29F28D1AD8C36400852B02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB29F28E1AD8C36400852B02 /* Info.plist */,
+				CB29F28F1AD8C36400852B02 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB29F2A61AD8C36400852B02 /* NYUSafetyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB29F2A91AD8C36500852B02 /* NYUSafetyTests.m */,
+				CB29F2A71AD8C36500852B02 /* Supporting Files */,
+			);
+			path = NYUSafetyTests;
+			sourceTree = "<group>";
+		};
+		CB29F2A71AD8C36500852B02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB29F2A81AD8C36500852B02 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB29F2891AD8C36400852B02 /* NYUSafety */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB29F2AD1AD8C36500852B02 /* Build configuration list for PBXNativeTarget "NYUSafety" */;
+			buildPhases = (
+				CB29F2861AD8C36400852B02 /* Sources */,
+				CB29F2871AD8C36400852B02 /* Frameworks */,
+				CB29F2881AD8C36400852B02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NYUSafety;
+			productName = NYUSafety;
+			productReference = CB29F28A1AD8C36400852B02 /* NYUSafety.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB29F2A21AD8C36400852B02 /* NYUSafetyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB29F2B01AD8C36500852B02 /* Build configuration list for PBXNativeTarget "NYUSafetyTests" */;
+			buildPhases = (
+				CB29F29F1AD8C36400852B02 /* Sources */,
+				CB29F2A01AD8C36400852B02 /* Frameworks */,
+				CB29F2A11AD8C36400852B02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB29F2A51AD8C36400852B02 /* PBXTargetDependency */,
+			);
+			name = NYUSafetyTests;
+			productName = NYUSafetyTests;
+			productReference = CB29F2A31AD8C36400852B02 /* NYUSafetyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB29F2821AD8C36400852B02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "nyu safety";
+				TargetAttributes = {
+					CB29F2891AD8C36400852B02 = {
+						CreatedOnToolsVersion = 6.2;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					CB29F2A21AD8C36400852B02 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CB29F2891AD8C36400852B02;
+					};
+				};
+			};
+			buildConfigurationList = CB29F2851AD8C36400852B02 /* Build configuration list for PBXProject "NYUSafety" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB29F2811AD8C36400852B02;
+			productRefGroup = CB29F28B1AD8C36400852B02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB29F2891AD8C36400852B02 /* NYUSafety */,
+				CB29F2A21AD8C36400852B02 /* NYUSafetyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB29F2881AD8C36400852B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB29F2991AD8C36400852B02 /* Main.storyboard in Resources */,
+				CB29F29E1AD8C36400852B02 /* LaunchScreen.xib in Resources */,
+				CB29F29B1AD8C36400852B02 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB29F2A11AD8C36400852B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB29F2861AD8C36400852B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9E7F3D1AD907C400CB402C /* SafetySignUpViewController.m in Sources */,
+				CB9E7F401AD907FF00CB402C /* SafetySignInViewController.m in Sources */,
+				CB29F2961AD8C36400852B02 /* SafetyLandingViewController.m in Sources */,
+				CBB71DD71AD9E52400F44416 /* SafetyBaseViewController.m in Sources */,
+				CB29F2931AD8C36400852B02 /* AppDelegate.m in Sources */,
+				CB9E7F461AD9084300CB402C /* SafetyDashViewController.m in Sources */,
+				CB9E7F431AD9082700CB402C /* SafetyVerifyCodeViewController.m in Sources */,
+				CB29F2901AD8C36400852B02 /* main.m in Sources */,
+				CB9E7F491AD90F0400CB402C /* SafetyAPIDataHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB29F29F1AD8C36400852B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB29F2AA1AD8C36500852B02 /* NYUSafetyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB29F2A51AD8C36400852B02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB29F2891AD8C36400852B02 /* NYUSafety */;
+			targetProxy = CB29F2A41AD8C36400852B02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB29F2971AD8C36400852B02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB29F2981AD8C36400852B02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB29F29C1AD8C36400852B02 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB29F29D1AD8C36400852B02 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB29F2AB1AD8C36500852B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB29F2AC1AD8C36500852B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB29F2AE1AD8C36500852B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NYUSafety/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB29F2AF1AD8C36500852B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NYUSafety/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB29F2B11AD8C36500852B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NYUSafetyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYUSafety.app/NYUSafety";
+			};
+			name = Debug;
+		};
+		CB29F2B21AD8C36500852B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NYUSafetyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYUSafety.app/NYUSafety";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB29F2851AD8C36400852B02 /* Build configuration list for PBXProject "NYUSafety" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB29F2AB1AD8C36500852B02 /* Debug */,
+				CB29F2AC1AD8C36500852B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB29F2AD1AD8C36500852B02 /* Build configuration list for PBXNativeTarget "NYUSafety" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB29F2AE1AD8C36500852B02 /* Debug */,
+				CB29F2AF1AD8C36500852B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB29F2B01AD8C36500852B02 /* Build configuration list for PBXNativeTarget "NYUSafetyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB29F2B11AD8C36500852B02 /* Debug */,
+				CB29F2B21AD8C36500852B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB29F2821AD8C36400852B02 /* Project object */;
+}

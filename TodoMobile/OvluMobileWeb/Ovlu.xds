@@ -1,0 +1,49 @@
+{
+    "name": "Ovlu",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.2.67",
+            "frameworkVersion": "2.3.1.410"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "urlPrefix": "http://localhost:1841",
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "displayfield-ExtBox1-1281-inputEl": "Not Installed"
+    },
+    "xdsVersion": "3.0.2",
+    "xdsBuild": 1375,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000004,
+    "framework": "touch23",
+    "viewOrderMap": {
+        "view": [
+            "06b9fb75-6109-4b71-a810-070659e90352"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "af006418-13f0-4ad1-ad1a-35cb031edecd",
+            "7d237c8b-f055-43d1-85f9-f2662ab6c6f8"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

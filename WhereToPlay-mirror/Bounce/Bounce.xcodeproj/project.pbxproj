@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A14C9CF41A3F4AB1005DA4C3 /* My Current Location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = A14C9CF31A3F4AB1005DA4C3 /* My Current Location.gpx */; };
+		A14C9CF51A3F4AB1005DA4C3 /* My Current Location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = A14C9CF31A3F4AB1005DA4C3 /* My Current Location.gpx */; };
+		A15675881A27ECA100695AA8 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A15675871A27ECA100695AA8 /* Launch Screen.xib */; };
+		CB03652E1A3983D800F486E4 /* BounceJSONUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB03652D1A3983D800F486E4 /* BounceJSONUtil.swift */; };
+		CB0ED52B1A3F6FE500F7182D /* My Current Location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = CB0ED52A1A3F6FE500F7182D /* My Current Location.gpx */; };
+		CB0ED52C1A3F6FE500F7182D /* My Current Location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = CB0ED52A1A3F6FE500F7182D /* My Current Location.gpx */; };
+		CB0F12E91A36A88200FBA625 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0F12E81A36A88200FBA625 /* CoreLocation.framework */; };
+		CB0F12EB1A36A88A00FBA625 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0F12EA1A36A88A00FBA625 /* MapKit.framework */; };
+		CB0F13021A36B1B900FBA625 /* BounceHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F13011A36B1B900FBA625 /* BounceHomeViewController.swift */; };
+		CB0F13041A36B1E700FBA625 /* BounceCourtsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F13031A36B1E700FBA625 /* BounceCourtsViewController.swift */; };
+		CB0F13071A36BFFE00FBA625 /* BounceCourtDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F13061A36BFFE00FBA625 /* BounceCourtDetailsViewController.swift */; };
+		CB0F130B1A37D3A400FBA625 /* BounceFacebookUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F130A1A37D3A400FBA625 /* BounceFacebookUtil.swift */; };
+		CB0F130D1A37F49A00FBA625 /* BounceJSONDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F130C1A37F49A00FBA625 /* BounceJSONDataStore.swift */; };
+		CBAD87AB1A3ECBB3008CC43B /* BouncePlayers.json in Resources */ = {isa = PBXBuildFile; fileRef = CBE753271A3D666300C4FAE1 /* BouncePlayers.json */; };
+		CBAD87AC1A3ECBBF008CC43B /* BounceCourts.json in Resources */ = {isa = PBXBuildFile; fileRef = CBB88ADC1A3E1980002331E4 /* BounceCourts.json */; };
+		CBB88ADB1A3DFD87002331E4 /* BounceBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB88ADA1A3DFD87002331E4 /* BounceBaseViewController.swift */; };
+		CBB88ADF1A3E6188002331E4 /* BounceCourtInfoTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB88ADE1A3E6188002331E4 /* BounceCourtInfoTableCell.xib */; };
+		CBB88AE11A3E6313002331E4 /* BounceCourtInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB88AE01A3E6313002331E4 /* BounceCourtInfoTableViewCell.swift */; };
+		CBB88AE31A3E8CCE002331E4 /* BounceUserListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB88AE21A3E8CCE002331E4 /* BounceUserListTableViewCell.swift */; };
+		CBB88AE51A3E8CEC002331E4 /* BounceUserListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB88AE41A3E8CEC002331E4 /* BounceUserListTableViewCell.xib */; };
+		CBE753261A3D479C00C4FAE1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE753251A3D479C00C4FAE1 /* FacebookSDK.framework */; };
+		CBEF1D4D1A27D3D20092B170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF1D4C1A27D3D20092B170 /* AppDelegate.swift */; };
+		CBEF1D4F1A27D3D20092B170 /* BounceLandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF1D4E1A27D3D20092B170 /* BounceLandingViewController.swift */; };
+		CBEF1D521A27D3D20092B170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEF1D501A27D3D20092B170 /* Main.storyboard */; };
+		CBEF1D541A27D3D20092B170 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBEF1D531A27D3D20092B170 /* Images.xcassets */; };
+		CBEF1D631A27D3D20092B170 /* BounceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF1D621A27D3D20092B170 /* BounceTests.swift */; };
+		CBEF1DA91A27FD090092B170 /* BounceSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF1DA81A27FD090092B170 /* BounceSignUpViewController.swift */; };
+		CBEF1DAB1A27FED80092B170 /* BounceGetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF1DAA1A27FED80092B170 /* BounceGetStartedViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBEF1D5D1A27D3D20092B170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBEF1D3F1A27D3D20092B170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBEF1D461A27D3D20092B170;
+			remoteInfo = Bounce;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A14C9CF31A3F4AB1005DA4C3 /* My Current Location.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "My Current Location.gpx"; sourceTree = "<group>"; };
+		A15675871A27ECA100695AA8 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		CB03652D1A3983D800F486E4 /* BounceJSONUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceJSONUtil.swift; sourceTree = "<group>"; };
+		CB0ED52A1A3F6FE500F7182D /* My Current Location.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "My Current Location.gpx"; sourceTree = "<group>"; };
+		CB0F12E81A36A88200FBA625 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CB0F12EA1A36A88A00FBA625 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CB0F13011A36B1B900FBA625 /* BounceHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceHomeViewController.swift; sourceTree = "<group>"; };
+		CB0F13031A36B1E700FBA625 /* BounceCourtsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceCourtsViewController.swift; sourceTree = "<group>"; };
+		CB0F13051A36B4FE00FBA625 /* Bounce-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bounce-Bridging-Header.h"; sourceTree = "<group>"; };
+		CB0F13061A36BFFE00FBA625 /* BounceCourtDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceCourtDetailsViewController.swift; sourceTree = "<group>"; };
+		CB0F130A1A37D3A400FBA625 /* BounceFacebookUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceFacebookUtil.swift; sourceTree = "<group>"; };
+		CB0F130C1A37F49A00FBA625 /* BounceJSONDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceJSONDataStore.swift; sourceTree = "<group>"; };
+		CBB88ADA1A3DFD87002331E4 /* BounceBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceBaseViewController.swift; sourceTree = "<group>"; };
+		CBB88ADC1A3E1980002331E4 /* BounceCourts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BounceCourts.json; sourceTree = "<group>"; };
+		CBB88ADE1A3E6188002331E4 /* BounceCourtInfoTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BounceCourtInfoTableCell.xib; sourceTree = "<group>"; };
+		CBB88AE01A3E6313002331E4 /* BounceCourtInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceCourtInfoTableViewCell.swift; sourceTree = "<group>"; };
+		CBB88AE21A3E8CCE002331E4 /* BounceUserListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceUserListTableViewCell.swift; sourceTree = "<group>"; };
+		CBB88AE41A3E8CEC002331E4 /* BounceUserListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BounceUserListTableViewCell.xib; sourceTree = "<group>"; };
+		CBE753251A3D479C00C4FAE1 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		CBE753271A3D666300C4FAE1 /* BouncePlayers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BouncePlayers.json; sourceTree = "<group>"; };
+		CBEF1D471A27D3D20092B170 /* Bounce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bounce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEF1D4B1A27D3D20092B170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBEF1D4C1A27D3D20092B170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBEF1D4E1A27D3D20092B170 /* BounceLandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceLandingViewController.swift; sourceTree = "<group>"; };
+		CBEF1D511A27D3D20092B170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBEF1D531A27D3D20092B170 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CBEF1D5C1A27D3D20092B170 /* BounceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BounceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEF1D611A27D3D20092B170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBEF1D621A27D3D20092B170 /* BounceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceTests.swift; sourceTree = "<group>"; };
+		CBEF1DA81A27FD090092B170 /* BounceSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceSignUpViewController.swift; sourceTree = "<group>"; };
+		CBEF1DAA1A27FED80092B170 /* BounceGetStartedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceGetStartedViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBEF1D441A27D3D20092B170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0F12EB1A36A88A00FBA625 /* MapKit.framework in Frameworks */,
+				CB0F12E91A36A88200FBA625 /* CoreLocation.framework in Frameworks */,
+				CBE753261A3D479C00C4FAE1 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEF1D591A27D3D20092B170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBEF1D3E1A27D3D20092B170 = {
+			isa = PBXGroup;
+			children = (
+				CB0ED52A1A3F6FE500F7182D /* My Current Location.gpx */,
+				A14C9CF31A3F4AB1005DA4C3 /* My Current Location.gpx */,
+				CBE753251A3D479C00C4FAE1 /* FacebookSDK.framework */,
+				CB0F12EA1A36A88A00FBA625 /* MapKit.framework */,
+				CB0F12E81A36A88200FBA625 /* CoreLocation.framework */,
+				CBEF1D491A27D3D20092B170 /* Bounce */,
+				CBEF1D5F1A27D3D20092B170 /* BounceTests */,
+				CBEF1D481A27D3D20092B170 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBEF1D481A27D3D20092B170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF1D471A27D3D20092B170 /* Bounce.app */,
+				CBEF1D5C1A27D3D20092B170 /* BounceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBEF1D491A27D3D20092B170 /* Bounce */ = {
+			isa = PBXGroup;
+			children = (
+				CBFC530E1A3EB12A0024ED57 /* Resources */,
+				CB0F13051A36B4FE00FBA625 /* Bounce-Bridging-Header.h */,
+				CBEF1D4C1A27D3D20092B170 /* AppDelegate.swift */,
+				CBEF1D501A27D3D20092B170 /* Main.storyboard */,
+				CBEF1D531A27D3D20092B170 /* Images.xcassets */,
+				CBEF1D4A1A27D3D20092B170 /* Supporting Files */,
+				A15675871A27ECA100695AA8 /* Launch Screen.xib */,
+				CBEF1D4E1A27D3D20092B170 /* BounceLandingViewController.swift */,
+				CBEF1DA81A27FD090092B170 /* BounceSignUpViewController.swift */,
+				CBEF1DAA1A27FED80092B170 /* BounceGetStartedViewController.swift */,
+				CB0F13011A36B1B900FBA625 /* BounceHomeViewController.swift */,
+				CB0F13031A36B1E700FBA625 /* BounceCourtsViewController.swift */,
+				CB0F13061A36BFFE00FBA625 /* BounceCourtDetailsViewController.swift */,
+				CB0F130A1A37D3A400FBA625 /* BounceFacebookUtil.swift */,
+				CB0F130C1A37F49A00FBA625 /* BounceJSONDataStore.swift */,
+				CB03652D1A3983D800F486E4 /* BounceJSONUtil.swift */,
+				CBB88ADA1A3DFD87002331E4 /* BounceBaseViewController.swift */,
+				CBB88ADE1A3E6188002331E4 /* BounceCourtInfoTableCell.xib */,
+				CBB88AE01A3E6313002331E4 /* BounceCourtInfoTableViewCell.swift */,
+				CBB88AE21A3E8CCE002331E4 /* BounceUserListTableViewCell.swift */,
+				CBB88AE41A3E8CEC002331E4 /* BounceUserListTableViewCell.xib */,
+			);
+			path = Bounce;
+			sourceTree = "<group>";
+		};
+		CBEF1D4A1A27D3D20092B170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF1D4B1A27D3D20092B170 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBEF1D5F1A27D3D20092B170 /* BounceTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF1D621A27D3D20092B170 /* BounceTests.swift */,
+				CBEF1D601A27D3D20092B170 /* Supporting Files */,
+			);
+			path = BounceTests;
+			sourceTree = "<group>";
+		};
+		CBEF1D601A27D3D20092B170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF1D611A27D3D20092B170 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBFC530E1A3EB12A0024ED57 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CBE753271A3D666300C4FAE1 /* BouncePlayers.json */,
+				CBB88ADC1A3E1980002331E4 /* BounceCourts.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBEF1D461A27D3D20092B170 /* Bounce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBEF1D661A27D3D20092B170 /* Build configuration list for PBXNativeTarget "Bounce" */;
+			buildPhases = (
+				CBEF1D431A27D3D20092B170 /* Sources */,
+				CBEF1D441A27D3D20092B170 /* Frameworks */,
+				CBEF1D451A27D3D20092B170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bounce;
+			productName = Bounce;
+			productReference = CBEF1D471A27D3D20092B170 /* Bounce.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBEF1D5B1A27D3D20092B170 /* BounceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBEF1D691A27D3D20092B170 /* Build configuration list for PBXNativeTarget "BounceTests" */;
+			buildPhases = (
+				CBEF1D581A27D3D20092B170 /* Sources */,
+				CBEF1D591A27D3D20092B170 /* Frameworks */,
+				CBEF1D5A1A27D3D20092B170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBEF1D5E1A27D3D20092B170 /* PBXTargetDependency */,
+			);
+			name = BounceTests;
+			productName = BounceTests;
+			productReference = CBEF1D5C1A27D3D20092B170 /* BounceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBEF1D3F1A27D3D20092B170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = NYUPoly;
+				TargetAttributes = {
+					CBEF1D461A27D3D20092B170 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					CBEF1D5B1A27D3D20092B170 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = CBEF1D461A27D3D20092B170;
+					};
+				};
+			};
+			buildConfigurationList = CBEF1D421A27D3D20092B170 /* Build configuration list for PBXProject "Bounce" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBEF1D3E1A27D3D20092B170;
+			productRefGroup = CBEF1D481A27D3D20092B170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBEF1D461A27D3D20092B170 /* Bounce */,
+				CBEF1D5B1A27D3D20092B170 /* BounceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBEF1D451A27D3D20092B170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAD87AC1A3ECBBF008CC43B /* BounceCourts.json in Resources */,
+				CBAD87AB1A3ECBB3008CC43B /* BouncePlayers.json in Resources */,
+				CBEF1D521A27D3D20092B170 /* Main.storyboard in Resources */,
+				CBEF1D541A27D3D20092B170 /* Images.xcassets in Resources */,
+				CB0ED52B1A3F6FE500F7182D /* My Current Location.gpx in Resources */,
+				CBB88ADF1A3E6188002331E4 /* BounceCourtInfoTableCell.xib in Resources */,
+				CBB88AE51A3E8CEC002331E4 /* BounceUserListTableViewCell.xib in Resources */,
+				A14C9CF41A3F4AB1005DA4C3 /* My Current Location.gpx in Resources */,
+				A15675881A27ECA100695AA8 /* Launch Screen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEF1D5A1A27D3D20092B170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0ED52C1A3F6FE500F7182D /* My Current Location.gpx in Resources */,
+				A14C9CF51A3F4AB1005DA4C3 /* My Current Location.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBEF1D431A27D3D20092B170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEF1D4F1A27D3D20092B170 /* BounceLandingViewController.swift in Sources */,
+				CBB88AE11A3E6313002331E4 /* BounceCourtInfoTableViewCell.swift in Sources */,
+				CBB88AE31A3E8CCE002331E4 /* BounceUserListTableViewCell.swift in Sources */,
+				CB03652E1A3983D800F486E4 /* BounceJSONUtil.swift in Sources */,
+				CB0F13071A36BFFE00FBA625 /* BounceCourtDetailsViewController.swift in Sources */,
+				CB0F130D1A37F49A00FBA625 /* BounceJSONDataStore.swift in Sources */,
+				CB0F13021A36B1B900FBA625 /* BounceHomeViewController.swift in Sources */,
+				CB0F13041A36B1E700FBA625 /* BounceCourtsViewController.swift in Sources */,
+				CBB88ADB1A3DFD87002331E4 /* BounceBaseViewController.swift in Sources */,
+				CBEF1DAB1A27FED80092B170 /* BounceGetStartedViewController.swift in Sources */,
+				CBEF1DA91A27FD090092B170 /* BounceSignUpViewController.swift in Sources */,
+				CBEF1D4D1A27D3D20092B170 /* AppDelegate.swift in Sources */,
+				CB0F130B1A37D3A400FBA625 /* BounceFacebookUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEF1D581A27D3D20092B170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEF1D631A27D3D20092B170 /* BounceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBEF1D5E1A27D3D20092B170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBEF1D461A27D3D20092B170 /* Bounce */;
+			targetProxy = CBEF1D5D1A27D3D20092B170 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBEF1D501A27D3D20092B170 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBEF1D511A27D3D20092B170 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBEF1D641A27D3D20092B170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBEF1D651A27D3D20092B170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBEF1D671A27D3D20092B170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Bounce",
+					/Users/michaelgerstenfeld/Google,
+					Drive/MSCS/FALL14/CS9033/Project/WhereToPlay_1/Bounce_1/Bounce,
+					"$(PROJECT_DIR)",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/Bounce/FacebookSDK.framework/Versions/A/Headers/";
+				INFOPLIST_FILE = Bounce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Bounce/Bounce-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		CBEF1D681A27D3D20092B170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Bounce",
+					/Users/michaelgerstenfeld/Google,
+					Drive/MSCS/FALL14/CS9033/Project/WhereToPlay_1/Bounce_1/Bounce,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Bounce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Bounce/Bounce-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CBEF1D6A1A27D3D20092B170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BounceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bounce.app/Bounce";
+			};
+			name = Debug;
+		};
+		CBEF1D6B1A27D3D20092B170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BounceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bounce.app/Bounce";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBEF1D421A27D3D20092B170 /* Build configuration list for PBXProject "Bounce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEF1D641A27D3D20092B170 /* Debug */,
+				CBEF1D651A27D3D20092B170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBEF1D661A27D3D20092B170 /* Build configuration list for PBXNativeTarget "Bounce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEF1D671A27D3D20092B170 /* Debug */,
+				CBEF1D681A27D3D20092B170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBEF1D691A27D3D20092B170 /* Build configuration list for PBXNativeTarget "BounceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEF1D6A1A27D3D20092B170 /* Debug */,
+				CBEF1D6B1A27D3D20092B170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBEF1D3F1A27D3D20092B170 /* Project object */;
+}

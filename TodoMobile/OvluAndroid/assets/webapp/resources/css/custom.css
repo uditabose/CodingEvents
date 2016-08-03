@@ -1,0 +1,364 @@
+
+
+.msg_content {
+    /* border-bottom: 1px solid #a5b1d8; */
+    font-family: Helvetica, Verdana, sans-serif; 
+    font-size: small;
+}
+
+.msg_content:hover {
+    //background-color: #c9d0e7;
+}
+
+.msg_avatar {
+    float: left;
+    padding-right: 15px;   
+}
+
+.msg_mark {
+    background-image: url('http://app.ovlu.co/images/icon-star-orange-unmarked.png');
+    background-repeat: no-repeat;
+    float: right;
+    width: 12px;
+    height: 12px;
+    padding-right: 5px; 
+}
+
+.msg_data {
+   padding-left: 30px; 
+}
+
+.msg_sub {
+    font-weight: bold;
+    font-style: normal;
+    color: #000000
+}
+
+
+.msg_date {
+    float: right;
+    padding-right: 5px;
+}
+
+.msg_body {
+    font-weight: normal;
+    font-style: normal;
+    /*float: left;*/
+    width: 100%;
+}
+
+.msg_from {
+    font-weight: normal;
+    font-style: normal;
+    /*float: left;*/
+    width: 100%;   
+}
+
+.msg_from a {
+    color: #6a6af1;
+}
+
+.msgdet_content {
+    width: 100%;
+    padding: 10px;
+    /* margin: 10px; */
+    /* border-bottom:1px solid #F8F9F9; */
+}
+
+.msgdet_avatar {
+    float: left;
+    margin: 10px;
+}
+
+.msgdet_data {
+    padding: 10px;
+}
+
+.msgdet_mark {
+    background-image: url('http://app.ovlu.co/images/icon-star-orange-unmarked.png');
+    background-repeat: no-repeat;
+    float: right;
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+    padding-right: 5px; 
+}
+
+.msgdet_data {
+   padding-left: 30px; 
+   padding-right: 30px;
+   background-color: #F8F9F9;
+   border: 1px solid #EEEEEE;
+}
+
+.msgdet_sub {
+    font-weight: bold;
+    font-style: normal;
+    font-size: small;
+    color: #000000
+}
+
+
+.msgdet_date {
+    float: right;
+    padding-right: 5px;
+    font-size: small;
+}
+
+.msgdet_body {
+    font-weight: normal;
+    font-style: normal;
+    background-color: #F8F9F9;
+    border: 1px solid #EEEEEE;
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.msgdet_from {
+    font-weight: normal;
+    font-style: normal;
+    font-size: small;
+    /*float: left;*/
+    width: 100%;   
+}
+
+.msgdet_from a {
+    color: #6a6af1;
+}
+
+#replyText {
+    width:100%;
+    margin-top: 5px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;         /* For IE and modern versions of Chrome */
+    -moz-box-sizing: border-box;    /* For Firefox                          */
+    -webkit-box-sizing: border-box; /* For Safari                           */
+    font-size: small;
+}
+
+#reSubId {
+    width:80%;
+    margin-top: 5px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;         /* For IE and modern versions of Chrome */
+    -moz-box-sizing: border-box;    /* For Firefox                          */
+    -webkit-box-sizing: border-box; /* For Safari                           */
+    font-size: small;
+}
+
+#reToId {
+    width:80%;
+    margin-top: 5px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;         /* For IE and modern versions of Chrome */
+    -moz-box-sizing: border-box;    /* For Firefox                          */
+    -webkit-box-sizing: border-box; /* For Safari                           */
+    font-size: small;
+}
+
+.replySuccess{
+    color: #56b148;
+    font-size: small;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.replyError {
+    color: #990000;
+    font-size: small;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.loginError {
+    color:#990000;
+    margin:5px 0px;
+}
+
+.loginBackGround{
+    background-image:url('../images/bg_header.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover
+}
+
+.loginField {
+    width: 90%;
+    margin-bottom:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loginFieldButton {
+    width: 90%;
+    margin-bottom:10px;
+    margin-left: auto;
+    margin-right: auto;
+    background:#e67e22;
+    color: #FFF;
+}
+
+.loginFieldButton .x-button-label{
+    color: #FFF;
+}
+/*
+.menuNoSelect {
+    background-color: #EEEEEE;
+    color: #168ddd;
+}
+
+.menuNoSelect:selected {
+    background-color: #EEEEEE;
+    color: #168ddd;
+}
+*/
+/*#F8F9F9;*/
+.menuLevelZero {
+    //background-color: #EDEDED;
+    color: #004474;//168ddd;
+}
+
+.menuLevelOne {
+    margin-left: 20px;
+    color: #168ddd;
+}
+
+.menuCount {
+    //margin: 14px 46px 0 0;
+    float: right;
+    background: #e67f23;
+    height: 20px;
+    padding: 0 7px;
+    //line-height: 19px;
+    //font-size: 12px;
+    color: #FFF;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+
+.gray-background {
+    background-color: #F8F9F9;
+}
+
+.x-titlebar .x-title {
+    color: #168ddd;
+}
+
+.x-toolbar .x-title {
+    color: #168ddd;
+}
+
+.x-mask .x-loading-spinner-outer {
+    min-width: 5em !important;
+    height: 5em !important;
+}
+
+#inboxList .x-list-item:nth-child(odd){
+    //background-color: #F8F9F9;
+    border-bottom: 1px solid #F8F9F9;
+}
+
+#inboxList .x-list-item:nth-child(even){
+    background-color: #D9D9D9;
+    border-bottom: 1px solid #F8F9F9;
+}
+
+#sentList .x-list-item:nth-child(odd){
+    //background-color: #F8F9F9;
+    border-bottom: 1px solid #F8F9F9;
+}
+
+#sentList .x-list-item:nth-child(even){
+    background-color: #D9D9D9;//#F9FAFC;
+    border-bottom: 1px solid #F8F9F9;
+}
+
+.genericButton {
+    background:#e67e22;
+    color: #FFF;
+    padding: 5px;
+}
+
+#evtList .x-list-item:nth-child(odd){
+    margin-left: 1px;
+    border-left: 5px solid #168ddd;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+#evtList .x-list-item:nth-child(even){
+    margin-left: 1px;
+    border-left: 5px solid chocolate ;
+    background-color: #D9D9D9; //#F8F9F9
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.evt_content {
+    width: 100%;
+    /* padding: 5px; */
+}
+
+.evt_title {
+    width: 100%;
+    font-weight: bold;
+    font-style: normal;
+    font-size: small;
+}
+
+.evt_detail {
+    width: 100%;
+    font-weight: normal;
+    font-style: normal;
+    font-size: small;
+}
+
+.evt_attendee {
+    width: 85%;
+    /* padding: 5px; */
+    margin-right: 15px;
+}
+
+.evt_time {
+    width: 100%;
+    //float: left;
+    font-weight: normal;
+    font-style: normal;
+    font-size: small;
+}
+
+.cursiveSmall {
+    font-weight: bold;
+    //font-style: italic;
+    font-size: small;
+    color: #004474;
+    margin-right: 3px;
+}
+
+.evtdet_content {
+    width: 100%;
+    font-size: small;
+    padding: 10px; 
+}
+
+.evtdet_content textarea {
+    width:100%;
+    float:right;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;         /* For IE and modern versions of Chrome */
+    -moz-box-sizing: border-box;    /* For Firefox                          */
+    -webkit-box-sizing: border-box; /* For Safari                           */
+    font-size: small;
+}
+
+.evtdet_content div {
+    width:100%;
+    margin: 5px;
+}
+

@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB56488C1AC0E7D700504F99 /* PercolateCoffeeImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB56488A1AC0E7D700504F99 /* PercolateCoffeeImageCell.m */; };
+		CB56488D1AC0E7D700504F99 /* PercolateCoffeeImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB56488B1AC0E7D700504F99 /* PercolateCoffeeImageCell.xib */; };
+		CB5648911AC0F6A400504F99 /* PercolateCoffeeSimpleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB56488F1AC0F6A400504F99 /* PercolateCoffeeSimpleCell.m */; };
+		CB5648921AC0F6A400504F99 /* PercolateCoffeeSimpleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB5648901AC0F6A400504F99 /* PercolateCoffeeSimpleCell.xib */; };
+		CB5648951AC0F9F400504F99 /* PercolateCoffee.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5648941AC0F9F400504F99 /* PercolateCoffee.m */; };
+		CB5648981AC0FBCB00504F99 /* PercolateDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5648971AC0FBCB00504F99 /* PercolateDataHandler.m */; };
+		CBA110691AC182EB00E3A1EF /* PercolateCoffeeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA110671AC182EB00E3A1EF /* PercolateCoffeeHeaderView.m */; };
+		CBA1106A1AC182EB00E3A1EF /* PercolateCoffeeHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA110681AC182EB00E3A1EF /* PercolateCoffeeHeaderView.xib */; };
+		CBFF50881AC0C02400C9F647 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFF50871AC0C02400C9F647 /* main.m */; };
+		CBFF508B1AC0C02400C9F647 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFF508A1AC0C02400C9F647 /* AppDelegate.m */; };
+		CBFF508E1AC0C02400C9F647 /* PercolateCoffeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFF508D1AC0C02400C9F647 /* PercolateCoffeListViewController.m */; };
+		CBFF50911AC0C02400C9F647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFF508F1AC0C02400C9F647 /* Main.storyboard */; };
+		CBFF50931AC0C02400C9F647 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFF50921AC0C02400C9F647 /* Images.xcassets */; };
+		CBFF50961AC0C02400C9F647 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBFF50941AC0C02400C9F647 /* LaunchScreen.xib */; };
+		CBFF50A21AC0C02400C9F647 /* iPercolateCoffeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFF50A11AC0C02400C9F647 /* iPercolateCoffeeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBFF509C1AC0C02400C9F647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBFF507A1AC0C02400C9F647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBFF50811AC0C02400C9F647;
+			remoteInfo = iPercolateCoffee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB5648891AC0E7D700504F99 /* PercolateCoffeeImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PercolateCoffeeImageCell.h; sourceTree = "<group>"; };
+		CB56488A1AC0E7D700504F99 /* PercolateCoffeeImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PercolateCoffeeImageCell.m; sourceTree = "<group>"; };
+		CB56488B1AC0E7D700504F99 /* PercolateCoffeeImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PercolateCoffeeImageCell.xib; sourceTree = "<group>"; };
+		CB56488E1AC0F6A400504F99 /* PercolateCoffeeSimpleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PercolateCoffeeSimpleCell.h; sourceTree = "<group>"; };
+		CB56488F1AC0F6A400504F99 /* PercolateCoffeeSimpleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PercolateCoffeeSimpleCell.m; sourceTree = "<group>"; };
+		CB5648901AC0F6A400504F99 /* PercolateCoffeeSimpleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PercolateCoffeeSimpleCell.xib; sourceTree = "<group>"; };
+		CB5648931AC0F9F400504F99 /* PercolateCoffee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PercolateCoffee.h; sourceTree = "<group>"; };
+		CB5648941AC0F9F400504F99 /* PercolateCoffee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PercolateCoffee.m; sourceTree = "<group>"; };
+		CB5648961AC0FBCB00504F99 /* PercolateDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PercolateDataHandler.h; sourceTree = "<group>"; };
+		CB5648971AC0FBCB00504F99 /* PercolateDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PercolateDataHandler.m; sourceTree = "<group>"; };
+		CBA110661AC182EB00E3A1EF /* PercolateCoffeeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PercolateCoffeeHeaderView.h; sourceTree = "<group>"; };
+		CBA110671AC182EB00E3A1EF /* PercolateCoffeeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PercolateCoffeeHeaderView.m; sourceTree = "<group>"; };
+		CBA110681AC182EB00E3A1EF /* PercolateCoffeeHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PercolateCoffeeHeaderView.xib; sourceTree = "<group>"; };
+		CBFF50821AC0C02400C9F647 /* iPercolateCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPercolateCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFF50861AC0C02400C9F647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBFF50871AC0C02400C9F647 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBFF50891AC0C02400C9F647 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBFF508A1AC0C02400C9F647 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBFF508C1AC0C02400C9F647 /* PercolateCoffeListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PercolateCoffeListViewController.h; sourceTree = "<group>"; };
+		CBFF508D1AC0C02400C9F647 /* PercolateCoffeListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PercolateCoffeListViewController.m; sourceTree = "<group>"; };
+		CBFF50901AC0C02400C9F647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBFF50921AC0C02400C9F647 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CBFF50951AC0C02400C9F647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CBFF509B1AC0C02400C9F647 /* iPercolateCoffeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPercolateCoffeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFF50A01AC0C02400C9F647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBFF50A11AC0C02400C9F647 /* iPercolateCoffeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPercolateCoffeeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBFF507F1AC0C02400C9F647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFF50981AC0C02400C9F647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBFF50791AC0C02400C9F647 = {
+			isa = PBXGroup;
+			children = (
+				CBFF50841AC0C02400C9F647 /* iPercolateCoffee */,
+				CBFF509E1AC0C02400C9F647 /* iPercolateCoffeeTests */,
+				CBFF50831AC0C02400C9F647 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBFF50831AC0C02400C9F647 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF50821AC0C02400C9F647 /* iPercolateCoffee.app */,
+				CBFF509B1AC0C02400C9F647 /* iPercolateCoffeeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBFF50841AC0C02400C9F647 /* iPercolateCoffee */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF50891AC0C02400C9F647 /* AppDelegate.h */,
+				CBFF508A1AC0C02400C9F647 /* AppDelegate.m */,
+				CBFF508C1AC0C02400C9F647 /* PercolateCoffeListViewController.h */,
+				CBFF508D1AC0C02400C9F647 /* PercolateCoffeListViewController.m */,
+				CBFF508F1AC0C02400C9F647 /* Main.storyboard */,
+				CBFF50921AC0C02400C9F647 /* Images.xcassets */,
+				CBFF50941AC0C02400C9F647 /* LaunchScreen.xib */,
+				CBFF50851AC0C02400C9F647 /* Supporting Files */,
+				CB5648891AC0E7D700504F99 /* PercolateCoffeeImageCell.h */,
+				CB56488A1AC0E7D700504F99 /* PercolateCoffeeImageCell.m */,
+				CB56488B1AC0E7D700504F99 /* PercolateCoffeeImageCell.xib */,
+				CB56488E1AC0F6A400504F99 /* PercolateCoffeeSimpleCell.h */,
+				CB56488F1AC0F6A400504F99 /* PercolateCoffeeSimpleCell.m */,
+				CB5648901AC0F6A400504F99 /* PercolateCoffeeSimpleCell.xib */,
+				CB5648931AC0F9F400504F99 /* PercolateCoffee.h */,
+				CB5648941AC0F9F400504F99 /* PercolateCoffee.m */,
+				CB5648961AC0FBCB00504F99 /* PercolateDataHandler.h */,
+				CB5648971AC0FBCB00504F99 /* PercolateDataHandler.m */,
+				CBA110661AC182EB00E3A1EF /* PercolateCoffeeHeaderView.h */,
+				CBA110671AC182EB00E3A1EF /* PercolateCoffeeHeaderView.m */,
+				CBA110681AC182EB00E3A1EF /* PercolateCoffeeHeaderView.xib */,
+			);
+			path = iPercolateCoffee;
+			sourceTree = "<group>";
+		};
+		CBFF50851AC0C02400C9F647 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF50861AC0C02400C9F647 /* Info.plist */,
+				CBFF50871AC0C02400C9F647 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBFF509E1AC0C02400C9F647 /* iPercolateCoffeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF50A11AC0C02400C9F647 /* iPercolateCoffeeTests.m */,
+				CBFF509F1AC0C02400C9F647 /* Supporting Files */,
+			);
+			path = iPercolateCoffeeTests;
+			sourceTree = "<group>";
+		};
+		CBFF509F1AC0C02400C9F647 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF50A01AC0C02400C9F647 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBFF50811AC0C02400C9F647 /* iPercolateCoffee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBFF50A51AC0C02400C9F647 /* Build configuration list for PBXNativeTarget "iPercolateCoffee" */;
+			buildPhases = (
+				CBFF507E1AC0C02400C9F647 /* Sources */,
+				CBFF507F1AC0C02400C9F647 /* Frameworks */,
+				CBFF50801AC0C02400C9F647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPercolateCoffee;
+			productName = iPercolateCoffee;
+			productReference = CBFF50821AC0C02400C9F647 /* iPercolateCoffee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBFF509A1AC0C02400C9F647 /* iPercolateCoffeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBFF50A81AC0C02400C9F647 /* Build configuration list for PBXNativeTarget "iPercolateCoffeeTests" */;
+			buildPhases = (
+				CBFF50971AC0C02400C9F647 /* Sources */,
+				CBFF50981AC0C02400C9F647 /* Frameworks */,
+				CBFF50991AC0C02400C9F647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBFF509D1AC0C02400C9F647 /* PBXTargetDependency */,
+			);
+			name = iPercolateCoffeeTests;
+			productName = iPercolateCoffeeTests;
+			productReference = CBFF509B1AC0C02400C9F647 /* iPercolateCoffeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBFF507A1AC0C02400C9F647 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				TargetAttributes = {
+					CBFF50811AC0C02400C9F647 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CBFF509A1AC0C02400C9F647 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CBFF50811AC0C02400C9F647;
+					};
+				};
+			};
+			buildConfigurationList = CBFF507D1AC0C02400C9F647 /* Build configuration list for PBXProject "iPercolateCoffee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBFF50791AC0C02400C9F647;
+			productRefGroup = CBFF50831AC0C02400C9F647 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBFF50811AC0C02400C9F647 /* iPercolateCoffee */,
+				CBFF509A1AC0C02400C9F647 /* iPercolateCoffeeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBFF50801AC0C02400C9F647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5648921AC0F6A400504F99 /* PercolateCoffeeSimpleCell.xib in Resources */,
+				CB56488D1AC0E7D700504F99 /* PercolateCoffeeImageCell.xib in Resources */,
+				CBFF50911AC0C02400C9F647 /* Main.storyboard in Resources */,
+				CBA1106A1AC182EB00E3A1EF /* PercolateCoffeeHeaderView.xib in Resources */,
+				CBFF50961AC0C02400C9F647 /* LaunchScreen.xib in Resources */,
+				CBFF50931AC0C02400C9F647 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFF50991AC0C02400C9F647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBFF507E1AC0C02400C9F647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFF508E1AC0C02400C9F647 /* PercolateCoffeListViewController.m in Sources */,
+				CBA110691AC182EB00E3A1EF /* PercolateCoffeeHeaderView.m in Sources */,
+				CB5648911AC0F6A400504F99 /* PercolateCoffeeSimpleCell.m in Sources */,
+				CBFF508B1AC0C02400C9F647 /* AppDelegate.m in Sources */,
+				CB5648951AC0F9F400504F99 /* PercolateCoffee.m in Sources */,
+				CB5648981AC0FBCB00504F99 /* PercolateDataHandler.m in Sources */,
+				CBFF50881AC0C02400C9F647 /* main.m in Sources */,
+				CB56488C1AC0E7D700504F99 /* PercolateCoffeeImageCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFF50971AC0C02400C9F647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFF50A21AC0C02400C9F647 /* iPercolateCoffeeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBFF509D1AC0C02400C9F647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBFF50811AC0C02400C9F647 /* iPercolateCoffee */;
+			targetProxy = CBFF509C1AC0C02400C9F647 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBFF508F1AC0C02400C9F647 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBFF50901AC0C02400C9F647 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBFF50941AC0C02400C9F647 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBFF50951AC0C02400C9F647 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBFF50A31AC0C02400C9F647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBFF50A41AC0C02400C9F647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBFF50A61AC0C02400C9F647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iPercolateCoffee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBFF50A71AC0C02400C9F647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iPercolateCoffee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBFF50A91AC0C02400C9F647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iPercolateCoffeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPercolateCoffee.app/iPercolateCoffee";
+			};
+			name = Debug;
+		};
+		CBFF50AA1AC0C02400C9F647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iPercolateCoffeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPercolateCoffee.app/iPercolateCoffee";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBFF507D1AC0C02400C9F647 /* Build configuration list for PBXProject "iPercolateCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFF50A31AC0C02400C9F647 /* Debug */,
+				CBFF50A41AC0C02400C9F647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBFF50A51AC0C02400C9F647 /* Build configuration list for PBXNativeTarget "iPercolateCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFF50A61AC0C02400C9F647 /* Debug */,
+				CBFF50A71AC0C02400C9F647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBFF50A81AC0C02400C9F647 /* Build configuration list for PBXNativeTarget "iPercolateCoffeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFF50A91AC0C02400C9F647 /* Debug */,
+				CBFF50AA1AC0C02400C9F647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBFF507A1AC0C02400C9F647 /* Project object */;
+}

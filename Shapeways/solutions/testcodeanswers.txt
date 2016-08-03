@@ -1,0 +1,26 @@
+Question 1 : 
+
+1. Happy path => user supplies an email of format <valid_email_id@valid_domain.valid_domain_ext> and not aleardy taken
+                , valid user name - alphanumeric characters which is not previously taken
+                , and an alphanumeric password minimum of 4 characters 
+                ==> User is allowed to create an account and a validation email is sent to the email with a validation link
+                
+
+2. Invalid email => user supplies an email of invalid format, other information valid as per the test case 1,
+                 ==> An alert box is shown under the email box warning user of invalid email format. User is not allowed to
+                    create the account.
+
+3. Invalid password => User supplies alphanumeric characters as password but less than 5 characters or more than 30
+                       characters, all other info valid
+                    ==> An alert box is shown under the password box in to request user to provide a password
+                        of length 5-30 characters. User is not allowed to create the account.
+
+4. Invalid username => User supplies alphanumeric characters as username but less than 4 characters, all other info valid
+                    ==> An message is shown under the username box in to request user to provide an username
+                        of length atleast 4 characters. User is not allowed to create the account.
+
+5. Combination of 2-3 => All or some of the alerts/messages should appear on screen. User is not allowed to create the account.
+
+Question 2 :  See shapeways/others/RepeatedCharacters.java
+
+Question 2 : 

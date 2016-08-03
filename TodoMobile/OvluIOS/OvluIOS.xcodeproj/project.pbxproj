@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ED9D55C18C233AD00F74555 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ED9D55B18C233AD00F74555 /* Main_iPad.storyboard */; };
+		0EFF5AA618B26F7E00DB0869 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFF5AA518B26F7E00DB0869 /* Foundation.framework */; };
+		0EFF5AA818B26F7E00DB0869 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFF5AA718B26F7E00DB0869 /* CoreGraphics.framework */; };
+		0EFF5AAA18B26F7E00DB0869 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFF5AA918B26F7E00DB0869 /* UIKit.framework */; };
+		0EFF5AB018B26F7E00DB0869 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EFF5AAE18B26F7E00DB0869 /* InfoPlist.strings */; };
+		0EFF5AB218B26F7E00DB0869 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFF5AB118B26F7E00DB0869 /* main.m */; };
+		0EFF5AB618B26F7E00DB0869 /* OvluAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFF5AB518B26F7E00DB0869 /* OvluAppDelegate.m */; };
+		0EFF5AB918B26F7E00DB0869 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EFF5AB718B26F7E00DB0869 /* Main_iPhone.storyboard */; };
+		0EFF5ABF18B26F7E00DB0869 /* OvluViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFF5ABE18B26F7E00DB0869 /* OvluViewController.m */; };
+		0EFF5AC118B26F7E00DB0869 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EFF5AC018B26F7E00DB0869 /* Images.xcassets */; };
+		0EFF5AC818B26F7E00DB0869 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFF5AC718B26F7E00DB0869 /* XCTest.framework */; };
+		0EFF5AC918B26F7E00DB0869 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFF5AA518B26F7E00DB0869 /* Foundation.framework */; };
+		0EFF5ACA18B26F7E00DB0869 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFF5AA918B26F7E00DB0869 /* UIKit.framework */; };
+		0EFF5AD218B26F7E00DB0869 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EFF5AD018B26F7E00DB0869 /* InfoPlist.strings */; };
+		0EFF5AD418B26F7E00DB0869 /* OvluTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFF5AD318B26F7E00DB0869 /* OvluTests.m */; };
+		0EFF5AE018B2705700DB0869 /* webapp in Resources */ = {isa = PBXBuildFile; fileRef = 0EFF5ADF18B2705700DB0869 /* webapp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EFF5ACB18B26F7E00DB0869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EFF5A9A18B26F7E00DB0869 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EFF5AA118B26F7E00DB0869;
+			remoteInfo = Ovlu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ED9D55B18C233AD00F74555 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		0EFF5AA218B26F7E00DB0869 /* OvluIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OvluIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EFF5AA518B26F7E00DB0869 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0EFF5AA718B26F7E00DB0869 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0EFF5AA918B26F7E00DB0869 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0EFF5AAD18B26F7E00DB0869 /* OvluIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OvluIOS-Info.plist"; sourceTree = "<group>"; };
+		0EFF5AAF18B26F7E00DB0869 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EFF5AB118B26F7E00DB0869 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0EFF5AB318B26F7E00DB0869 /* OvluIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OvluIOS-Prefix.pch"; sourceTree = "<group>"; };
+		0EFF5AB418B26F7E00DB0869 /* OvluAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OvluAppDelegate.h; sourceTree = "<group>"; };
+		0EFF5AB518B26F7E00DB0869 /* OvluAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OvluAppDelegate.m; sourceTree = "<group>"; };
+		0EFF5AB818B26F7E00DB0869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		0EFF5ABD18B26F7E00DB0869 /* OvluViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OvluViewController.h; sourceTree = "<group>"; };
+		0EFF5ABE18B26F7E00DB0869 /* OvluViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OvluViewController.m; sourceTree = "<group>"; };
+		0EFF5AC018B26F7E00DB0869 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0EFF5AC618B26F7E00DB0869 /* OvluIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OvluIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EFF5AC718B26F7E00DB0869 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0EFF5ACF18B26F7E00DB0869 /* OvluIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OvluIOSTests-Info.plist"; sourceTree = "<group>"; };
+		0EFF5AD118B26F7E00DB0869 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EFF5AD318B26F7E00DB0869 /* OvluTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OvluTests.m; sourceTree = "<group>"; };
+		0EFF5ADF18B2705700DB0869 /* webapp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = webapp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EFF5A9F18B26F7E00DB0869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFF5AA818B26F7E00DB0869 /* CoreGraphics.framework in Frameworks */,
+				0EFF5AAA18B26F7E00DB0869 /* UIKit.framework in Frameworks */,
+				0EFF5AA618B26F7E00DB0869 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EFF5AC318B26F7E00DB0869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFF5AC818B26F7E00DB0869 /* XCTest.framework in Frameworks */,
+				0EFF5ACA18B26F7E00DB0869 /* UIKit.framework in Frameworks */,
+				0EFF5AC918B26F7E00DB0869 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EFF5A9918B26F7E00DB0869 = {
+			isa = PBXGroup;
+			children = (
+				0EFF5AAB18B26F7E00DB0869 /* Ovlu */,
+				0EFF5ACD18B26F7E00DB0869 /* OvluTests */,
+				0EFF5AA418B26F7E00DB0869 /* Frameworks */,
+				0EFF5AA318B26F7E00DB0869 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EFF5AA318B26F7E00DB0869 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EFF5AA218B26F7E00DB0869 /* OvluIOS.app */,
+				0EFF5AC618B26F7E00DB0869 /* OvluIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EFF5AA418B26F7E00DB0869 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EFF5AA518B26F7E00DB0869 /* Foundation.framework */,
+				0EFF5AA718B26F7E00DB0869 /* CoreGraphics.framework */,
+				0EFF5AA918B26F7E00DB0869 /* UIKit.framework */,
+				0EFF5AC718B26F7E00DB0869 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0EFF5AAB18B26F7E00DB0869 /* Ovlu */ = {
+			isa = PBXGroup;
+			children = (
+				0EFF5ADF18B2705700DB0869 /* webapp */,
+				0EFF5AB418B26F7E00DB0869 /* OvluAppDelegate.h */,
+				0EFF5AB518B26F7E00DB0869 /* OvluAppDelegate.m */,
+				0EFF5AB718B26F7E00DB0869 /* Main_iPhone.storyboard */,
+				0ED9D55B18C233AD00F74555 /* Main_iPad.storyboard */,
+				0EFF5ABD18B26F7E00DB0869 /* OvluViewController.h */,
+				0EFF5ABE18B26F7E00DB0869 /* OvluViewController.m */,
+				0EFF5AC018B26F7E00DB0869 /* Images.xcassets */,
+				0EFF5AAC18B26F7E00DB0869 /* Supporting Files */,
+			);
+			path = Ovlu;
+			sourceTree = "<group>";
+		};
+		0EFF5AAC18B26F7E00DB0869 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EFF5AAD18B26F7E00DB0869 /* OvluIOS-Info.plist */,
+				0EFF5AAE18B26F7E00DB0869 /* InfoPlist.strings */,
+				0EFF5AB118B26F7E00DB0869 /* main.m */,
+				0EFF5AB318B26F7E00DB0869 /* OvluIOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EFF5ACD18B26F7E00DB0869 /* OvluTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EFF5AD318B26F7E00DB0869 /* OvluTests.m */,
+				0EFF5ACE18B26F7E00DB0869 /* Supporting Files */,
+			);
+			path = OvluTests;
+			sourceTree = "<group>";
+		};
+		0EFF5ACE18B26F7E00DB0869 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EFF5ACF18B26F7E00DB0869 /* OvluIOSTests-Info.plist */,
+				0EFF5AD018B26F7E00DB0869 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EFF5AA118B26F7E00DB0869 /* OvluIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EFF5AD718B26F7E00DB0869 /* Build configuration list for PBXNativeTarget "OvluIOS" */;
+			buildPhases = (
+				0EFF5A9E18B26F7E00DB0869 /* Sources */,
+				0EFF5A9F18B26F7E00DB0869 /* Frameworks */,
+				0EFF5AA018B26F7E00DB0869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OvluIOS;
+			productName = Ovlu;
+			productReference = 0EFF5AA218B26F7E00DB0869 /* OvluIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EFF5AC518B26F7E00DB0869 /* OvluIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EFF5ADA18B26F7E00DB0869 /* Build configuration list for PBXNativeTarget "OvluIOSTests" */;
+			buildPhases = (
+				0EFF5AC218B26F7E00DB0869 /* Sources */,
+				0EFF5AC318B26F7E00DB0869 /* Frameworks */,
+				0EFF5AC418B26F7E00DB0869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EFF5ACC18B26F7E00DB0869 /* PBXTargetDependency */,
+			);
+			name = OvluIOSTests;
+			productName = OvluTests;
+			productReference = 0EFF5AC618B26F7E00DB0869 /* OvluIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EFF5A9A18B26F7E00DB0869 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Ovlu;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = user10066;
+				TargetAttributes = {
+					0EFF5AC518B26F7E00DB0869 = {
+						TestTargetID = 0EFF5AA118B26F7E00DB0869;
+					};
+				};
+			};
+			buildConfigurationList = 0EFF5A9D18B26F7E00DB0869 /* Build configuration list for PBXProject "OvluIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EFF5A9918B26F7E00DB0869;
+			productRefGroup = 0EFF5AA318B26F7E00DB0869 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EFF5AA118B26F7E00DB0869 /* OvluIOS */,
+				0EFF5AC518B26F7E00DB0869 /* OvluIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EFF5AA018B26F7E00DB0869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFF5AE018B2705700DB0869 /* webapp in Resources */,
+				0EFF5AC118B26F7E00DB0869 /* Images.xcassets in Resources */,
+				0EFF5AB918B26F7E00DB0869 /* Main_iPhone.storyboard in Resources */,
+				0EFF5AB018B26F7E00DB0869 /* InfoPlist.strings in Resources */,
+				0ED9D55C18C233AD00F74555 /* Main_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EFF5AC418B26F7E00DB0869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFF5AD218B26F7E00DB0869 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EFF5A9E18B26F7E00DB0869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFF5AB618B26F7E00DB0869 /* OvluAppDelegate.m in Sources */,
+				0EFF5AB218B26F7E00DB0869 /* main.m in Sources */,
+				0EFF5ABF18B26F7E00DB0869 /* OvluViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EFF5AC218B26F7E00DB0869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFF5AD418B26F7E00DB0869 /* OvluTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EFF5ACC18B26F7E00DB0869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EFF5AA118B26F7E00DB0869 /* OvluIOS */;
+			targetProxy = 0EFF5ACB18B26F7E00DB0869 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EFF5AAE18B26F7E00DB0869 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EFF5AAF18B26F7E00DB0869 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0EFF5AB718B26F7E00DB0869 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EFF5AB818B26F7E00DB0869 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0EFF5AD018B26F7E00DB0869 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EFF5AD118B26F7E00DB0869 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EFF5AD518B26F7E00DB0869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EFF5AD618B26F7E00DB0869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EFF5AD818B26F7E00DB0869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ovlu/OvluIOS-Prefix.pch";
+				INFOPLIST_FILE = "Ovlu/OvluIOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = OvluIOS;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0EFF5AD918B26F7E00DB0869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ovlu/OvluIOS-Prefix.pch";
+				INFOPLIST_FILE = "Ovlu/OvluIOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = OvluIOS;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0EFF5ADB18B26F7E00DB0869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ovlu.app/Ovlu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ovlu/Ovlu-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OvluTests/OvluIOSTests-Info.plist";
+				PRODUCT_NAME = OvluIOSTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0EFF5ADC18B26F7E00DB0869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ovlu.app/Ovlu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ovlu/Ovlu-Prefix.pch";
+				INFOPLIST_FILE = "OvluTests/OvluIOSTests-Info.plist";
+				PRODUCT_NAME = OvluIOSTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EFF5A9D18B26F7E00DB0869 /* Build configuration list for PBXProject "OvluIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EFF5AD518B26F7E00DB0869 /* Debug */,
+				0EFF5AD618B26F7E00DB0869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EFF5AD718B26F7E00DB0869 /* Build configuration list for PBXNativeTarget "OvluIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EFF5AD818B26F7E00DB0869 /* Debug */,
+				0EFF5AD918B26F7E00DB0869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EFF5ADA18B26F7E00DB0869 /* Build configuration list for PBXNativeTarget "OvluIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EFF5ADB18B26F7E00DB0869 /* Debug */,
+				0EFF5ADC18B26F7E00DB0869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EFF5A9A18B26F7E00DB0869 /* Project object */;
+}
